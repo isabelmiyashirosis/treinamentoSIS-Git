@@ -1,0 +1,7 @@
+*** Variables ***
+&{DadosPessoais} =  Nome=Isabel    Idade=43 anos  sexo=Feminino   EstadoCivil=divorciada   cidade=Barueri  Data_Nascimento+28/01/1978
+
+*** Test Case ***
+Imprimindo variavel do tipo dicionario
+    log to console ${DadosPessoais}
+
